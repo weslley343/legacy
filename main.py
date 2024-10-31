@@ -17,4 +17,4 @@ app.include_router(pessoa_router, prefix="/api", tags=["pessoas"])
 
 @app.get("/")
 async def root():
-    return {"message": "API de Pessoas com FastAPI e Supabase"}
+    return {"message": "API de Pessoas com  FastAPI e Supabase"}
